@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Park App</string>
+    <string name="email">Email</string>
+    <string name="password">Senha</string>
+    <string name="login">Entrar</string>
+    <string name="register">Registrar</string>
+    <string name="purchase_ticket">Comprar Bilhete</string>
+    <string name="ticket_type">Tipo de Bilhete</string>
+    <string name="adult">Adulto</string>
+    <string name="child">Criança</string>
+    <string name="senior">Idoso</string>
+    <string name="quantity">Quantidade</string>
+    <string name="total_price">Preço Total</string>
+    <string name="welcome_to_park">Bem-vindo ao Parque</string>
+    <string name="todays_highlights">Destaques do Dia</string>
+    <string name="highlight_description">Confira as atrações especiais e eventos que estão acontecendo hoje no parque!</string>
+    <string name="featured_attractions">Atrações em Destaque</string>
+    <string name="buy_tickets">Comprar Bilhetes</string>
+</resources>
