@@ -11,6 +11,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Parkapp"
-        tools:targetApi="31" />
+        tools:targetApi="31">
+
+        <activity android:name=".activities.LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Parkapp.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.MainActivity" android:theme="@style/Theme.Parkapp.NoActionBar"/>
+        <activity android:name=".activities.TicketPurchaseActivity" android:theme="@style/Theme.Parkapp.NoActionBar" />
+
+    </application>
 
 </manifest>

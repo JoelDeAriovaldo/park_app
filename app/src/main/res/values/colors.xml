@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary_color">#8BC34A</color>
-    <color name="primary_dark_color">#689F38</color>
-    <color name="accent_color">#CDDC39</color>
-    <color name="background_color">#F1F8E9</color>
-    <color name="white">#FFFFFF</color>
-    <color name="black">#000000</color>
+        <color name="primary_color">#A5D6A7</color> <!-- Verde claro -->
+        <color name="primary_dark_color">#75A478</color> <!-- Verde escuro -->
+        <color name="accent_color">#C8E6C9</color> <!-- Verde mais claro -->
+        <color name="background_color">#F1F8E9</color>
+        <color name="white">#FFFFFF</color>
+        <color name="black">#000000</color>
+        <color name="secondary_text">#757575</color>
+        <color name="purple_500">#A5D6A7</color> <!-- Verde claro -->
+        <color name="purple_700">#75A478</color> <!-- Verde escuro -->
+        <color name="teal_200">#C8E6C9</color> <!-- Verde mais claro -->
+        <color name="teal_700">#75A478</color> <!-- Verde escuro -->
+        <color name="purple_200">#A5D6A7</color> <!-- Verde claro -->
 </resources>

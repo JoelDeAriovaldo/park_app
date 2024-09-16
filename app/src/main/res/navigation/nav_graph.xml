@@ -1,0 +1,50 @@
+<!-- app/src/main/res/navigation/nav_graph.xml -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_home">
+
+    <fragment
+        android:id="@+id/fragment_home"
+        android:name="com.example.parkapp.fragments.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_profile"
+            app:destination="@id/fragment_profile" />
+        <action
+            android:id="@+id/action_home_to_tickets"
+            app:destination="@id/fragment_tickets" />
+        <action
+            android:id="@+id/action_home_to_attractions"
+            app:destination="@id/fragment_attractions" />
+        <action
+            android:id="@+id/action_home_to_qr_code"
+            app:destination="@id/fragment_qr_code" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_tickets"
+        android:name="com.example.parkapp.fragments.TicketsFragment"
+        android:label="Tickets"
+        tools:layout="@layout/fragment_tickets" />
+
+    <fragment
+        android:id="@+id/fragment_profile"
+        android:name="com.example.parkapp.fragments.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/fragment_attractions"
+        android:name="com.example.parkapp.fragments.AttractionsFragment"
+        android:label="Attractions"
+        tools:layout="@layout/fragment_attractions" />
+
+    <fragment
+        android:id="@+id/fragment_qr_code"
+        android:name="com.example.parkapp.fragments.QRCodeFragment"
+        android:label="QR Code"
+        tools:layout="@layout/fragment_qr_code" />
+</navigation>

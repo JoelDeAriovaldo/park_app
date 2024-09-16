@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="12dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Attraction Icon/Image -->
+        <ImageView
+            android:id="@+id/img_attraction"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_attraction_placeholder"
+            android:contentDescription="@string/attraction_image"
+            android:layout_marginEnd="8dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_attraction_name"/>
+
+        <!-- Attraction Name -->
+        <TextView
+            android:id="@+id/tv_attraction_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Nome da atração"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_color"
+            app:layout_constraintStart_toEndOf="@id/img_attraction"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <!-- Attraction Description -->
+        <TextView
+            android:id="@+id/tv_attraction_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Descrição da atração"
+            android:textSize="14sp"
+            android:textColor="@color/secondary_text"
+            android:layout_marginTop="4dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_attraction_name"
+            app:layout_constraintStart_toEndOf="@id/img_attraction"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

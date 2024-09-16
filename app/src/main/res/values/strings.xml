@@ -16,4 +16,18 @@
     <string name="highlight_description">Confira as atrações especiais e eventos que estão acontecendo hoje no parque!</string>
     <string name="featured_attractions">Atrações em Destaque</string>
     <string name="buy_tickets">Comprar Bilhetes</string>
+    <string name="my_tickets">Meus Bilhetes</string>
+    <string name="active_tickets">Bilhetes Ativos</string>
+    <string name="past_tickets">Bilhetes Anteriores</string>
+    <string name="add_ticket">Adicionar Bilhete</string>
+    <string name="profile">Perfil</string>
+    <string name="name">Nome</string>
+    <string name="phone">Telefone</string>
+    <string name="change_password">Alterar Senha</string>
+    <string name="logout">Sair</string>
+    <string name="title_home">Home</string>
+    <string name="title_purchase">Comprar</string>
+    <string name="title_profile">Perfil</string>
+    <string name="purchase">Comprar</string>
+    <string name="attraction_image">Imagem da atração</string>
 </resources>

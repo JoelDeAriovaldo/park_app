@@ -2,4 +2,27 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_checked="true" android:color="@color/primary_color" />
     <item android:color="@color/black"  />
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/navigation_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/navigation_tickets"
+            android:icon="@drawable/ic_tickets"
+            android:title="Tickets" />
+        <item
+            android:id="@+id/navigation_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/navigation_attractions"
+            android:icon="@drawable/ic_attractions"
+            android:title="Attractions" />
+        <item
+            android:id="@+id/navigation_qr_code"
+            android:icon="@drawable/ic_qr_code"
+            android:title="QR Code" />
+    </menu>
 </selector>
