@@ -15,7 +15,9 @@
             android:layout_height="200dp"
             app:contentScrim="@color/primary_color"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
-            app:title="@string/profile">
+            app:title="@string/profile"
+            app:collapsedTitleTextColor="@color/white"
+            app:expandedTitleTextColor="@color/white">
 
             <ImageView
                 android:id="@+id/iv_profile_background"

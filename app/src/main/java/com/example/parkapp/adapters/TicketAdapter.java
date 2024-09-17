@@ -33,7 +33,7 @@ public class TicketAdapter extends RecyclerView.Adapter<TicketAdapter.TicketView
         Ticket ticket = ticketList.get(position);
         holder.tvTicketType.setText(ticket.getType());
         holder.tvTicketQuantity.setText(String.valueOf(ticket.getQuantity()));
-        holder.tvTicketPrice.setText(String.format("R$ %.2f", ticket.getPrice()));
+        holder.tvTicketPrice.setText(String.format("MZN %.2f", ticket.getPrice()));
     }
 
     @Override

@@ -14,8 +14,9 @@
             android:layout_height="200dp"
             app:contentScrim="@color/primary_color"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
-            app:title="@string/welcome_to_park">
-
+            app:title="@string/welcome_to_park"
+            app:collapsedTitleTextColor="@color/white"
+            app:expandedTitleTextColor="@color/white">
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
